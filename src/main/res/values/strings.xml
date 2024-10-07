@@ -1,0 +1,62 @@
+<resources>
+    <!-- App Info -->
+    <string name="start_button">Start</string>
+    <string name="welcome_text">Animals Guide</string>
+    <string name="change_language_button">Change Language</string>
+    <string name="email">Email</string>
+    <string name="enter_email">Enter your email</string>
+    <string name="password">Password</string>
+    <string name="enter_password">Enter your password</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+
+    <!-- Animal Names -->
+    <string name="animal_name_lion">Lion</string>
+    <string name="animal_name_elephant">Elephant</string>
+    <string name="animal_name_giraffe">Giraffe</string>
+    <string name="animal_name_panda">Panda</string>
+    <string name="animal_name_tiger">Tiger</string>
+    <string name="animal_name_bear">Bear</string>
+    <string name="animal_name_rhino">Rhino</string>
+    <string name="animal_name_hippo">Hippo</string>
+    <string name="animal_name_wolf">Wolf</string>
+    <string name="animal_name_monkey">Monkey</string>
+
+    <!-- Animal Descriptions -->
+    <string name="animal_desc_lion">The lion, scientifically known as Panthera leo, is a majestic creature and a symbol of strength and courage. It is the second-largest cat after the tiger, with a muscular build, a short, tawny coat, and a distinctive mane in males.</string>
+    <string name="animal_desc_elephant">The elephant, belonging to the family Elephantidae, is the largest land animal. Elephants are known for their long trunks. They have large ears that help regulate body temperature and are highly intelligent and social creatures.</string>
+    <string name="animal_desc_giraffe">The giraffe, Giraffa camelopardalis, is the tallest land animal, known for its exceptionally long neck and legs and distinctive spotted coat. Native to Africa, giraffes inhabit savannahs and woodlands where they feed primarily on leaves and shoots.</string>
+    <string name="animal_desc_panda">The giant panda, Ailuropoda melanoleuca, is native to China and is known for its distinctive black and white fur. Primarily a herbivore, the pandas diet is over 99% bamboo. It is a symbol of conservation and a flagship species for biodiversity.</string>
+    <string name="animal_desc_tiger">The tiger, Panthera tigris, is the largest species among the Felidae and is recognized for its dark vertical stripes on orange-brown fur. Tigers are apex predators primarily preying on ungulates such as deer and bovids. They are solitary but territorial animals.</string>
+    <string name="animal_desc_bear">Bears, family Ursidae, are large mammals found in the Americas, Europe, and Asia. They have a large body, short tail, and a powerful build. They are omnivorous, with diets ranging from fruit and plants to fish and large mammals.</string>
+    <string name="animal_desc_rhino">Rhinoceros, or rhino, refers to any of the five extant species in the family Rhinocerotidae. Rhinos are characterized by their large size, with some of the largest remaining megafauna, and a large horn or two on their snouts.</string>
+    <string name="animal_desc_hippo">The hippopotamus, Hippopotamus amphibius, is a large, mostly herbivorous, semiaquatic mammal native to sub-Saharan Africa. Hippos are recognizable by their barrel-shaped torsos, wide-opening mouths revealing large canine tusks, nearly hairless bodies, and large size.</string>
+    <string name="animal_desc_wolf">The wolf, Canis lupus, is the largest extant member of the Canidae family. Wolves are known for their remarkable social structure and pack behavior, often working in groups to track and hunt prey efficiently.</string>
+    <string name="animal_desc_monkey">Monkeys are a varied group of arboreal primates, comprising hundreds of species. They are known for their intelligence, social behavior, and agility. Monkeys have played key roles in biological research and are symbols in many cultural contexts.</string>
+
+    <string name="error_missing_email">Please enter an email address</string>
+    <string name="error_missing_password">Please enter a password</string>
+    <string name="error_missing_email_password">Please enter both email and password</string>
+
+    <string name="login_successful">Login successful</string>
+    <string name="login_failed">Login failed</string>
+    <string name="registration_successful">Registration successful</string>
+    <string name="error_email_exists">Email already exists</string>
+    <string name="registration_failed">Registration failed </string>
+
+    <string name="share_button">Share</string>
+    <string name="subject">Animal info</string>
+    <string name="ask_Phone">Enter phone number:</string>
+    <string name="ask_Email">Enter email address:</string>
+    <string name="share_animal_info">Share Animal Info</string>
+    <string name="share_via_sms">Share via SMS</string>
+    <string name="share_via_email">Share via Email</string>
+    <string name="share_name">Name:</string>
+    <string name="share_description">Description:</string>
+    <string name="share_cancel">Cancel</string>
+    <string name="share_send">sent successfully</string>
+
+    <string name="stop_music">Stop Music</string>
+    <string name="play_music">Play Music</string>
+
+</resources>

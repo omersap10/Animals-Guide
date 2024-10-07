@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Info -->
+    <string name="start_button">התחלה</string>
+    <string name="welcome_text">מדריך חיות</string>
+    <string name="change_language_button">שנה שפה</string>
+    <string name="email">אימייל</string>
+    <string name="enter_email">הזן את האימייל שלך</string>
+    <string name="password">סיסמא</string>
+    <string name="enter_password">הזן את הסיסמא שלך</string>
+    <string name="login">התחברות</string>
+    <string name="register">הרשמה</string>
+
+    <!-- Animal Names in Hebrew -->
+    <string name="animal_name_lion">אריה</string>
+    <string name="animal_name_elephant">פיל</string>
+    <string name="animal_name_giraffe">גירפה</string>
+    <string name="animal_name_panda">פנדה</string>
+    <string name="animal_name_tiger">נמר</string>
+    <string name="animal_name_bear">דוב</string>
+    <string name="animal_name_rhino">קרנף</string>
+    <string name="animal_name_hippo">היפופוטם</string>
+    <string name="animal_name_wolf">זאב</string>
+    <string name="animal_name_monkey">קוף</string>
+
+    <!-- Animal Descriptions -->
+    <string name="animal_desc_lion">האריה, ששמו המדעי הוא Panthera leo, הוא יצור מרשים וסמל לכוח ואומץ. הוא החתול השני בגודלו אחרי הנמר, עם בנייה שרירית, פרווה קצרה וחומה וזנב מיוחד בזכרים.</string>
+    <string name="animal_desc_elephant">הפיל, השייך למשפחת Elephantidae, הוא החיה היבשתית הגדולה ביותר. הפילים ידועים בחדק הארוך שלהם. לפילים אוזניים גדולות המסייעות בוויסות טמפרטורת הגוף והם יצורים חכמים וחברתיים מאוד.</string>
+    <string name="animal_desc_giraffe">הגירפה, Giraffa camelopardalis, היא החיה היבשתית הגבוהה ביותר, ידועה בצווארה הארוך וברגליה הארוכות ובפרווה מנוקדת. גירפות חיות בסוואנות וביערות שבאפריקה וניזונות בעיקר מעלים וצמחים.</string>
+    <string name="animal_desc_panda">הפנדה הענקית, Ailuropoda melanoleuca, מקורה בסין וידועה בפרווה השחורה והלבנה המיוחדת שלה. בעיקר צמחונית, תזונת הפנדה מורכבת במעל 99% מבמבוק. היא סמל לשימור טבע ולביולוגיה של בית גידול.</string>
+    <string name="animal_desc_tiger">הנמר, Panthera tigris, הוא מין החתול הגדול ביותר במשפחת הפלידאים ומזוהה בפסים האנכיים הכהים על פרוותו הכתומה-חומה. נמרים הם טורפי-על הצדים בעיקר טרפים כמו צבאים ובקרים. הן חיות בודדות אך טריטוריאליות.</string>
+    <string name="animal_desc_bear">הדובים, ממשפחת Ursidae, הם יונקים גדולים הנמצאים באמריקה, אירופה ואסיה. הם בעלי גוף גדול, זנב קצר וגוף חזק. הם אוכלי כל, עם תזונה הכוללת פרות, צמחים, דגים ויונקים גדולים.</string>
+    <string name="animal_desc_rhino">הקרנף, או רינוצרוס, מתייחס לאחת מחמש המינים השורדים במשפחת Rhinocerotidae. הקרנפים מאופיינים בגודלם הגדול, עם קרן אחת או שתיים על חדקם.</string>
+    <string name="animal_desc_hippo">ההיפופוטם, Hippopotamus amphibius, הוא יונק גדול, בעיקר צמחוני, שחי בתת-סהרה של אפריקה. היפופוטמים מוכרים בגודלם העצום ובאורח החיים המימי שלהם.</string>
+    <string name="animal_desc_wolf">הזאב, Canis lupus, הוא הגדול ביותר בין חברי משפחת הכלביים. זאבים ידועים במבנה החברתי המתקדם ובהתנהגות המתואמת של הלהקה, בדרך כלל עובדים בקבוצות כדי לצוד ולחיות יחד.</string>
+    <string name="animal_desc_monkey">הקופים הם קבוצה מגוונת של פרימטים שונים, עם מאות מינים. הם ידועים באינטליגנציה שלהם, התנהגות חברתית וזריזות. הקופים שיחקו תפקידים מרכזיים במחקר הביולוגי והם סמלים בהקשרים רבים בתרבות.</string>
+
+    <string name="error_missing_email">נא להזין כתובת מייל</string>
+    <string name="error_missing_password">נא להזין סיסמא</string>
+    <string name="error_missing_email_password">נא להזין כתובת מייל וסיסמא</string>
+
+    <string name="login_successful">ההתחברות הצליחה</string>
+    <string name="login_failed">ההתחברות נכשלה</string>
+    <string name="registration_successful">הרישום הצליח</string>
+    <string name="error_email_exists">האימייל כבר קיים</string>
+    <string name="registration_failed">הרישום נכשל</string>
+
+    <string name="share_button">שתף</string>
+    <string name="subject">מידע על בעל-חיים</string>
+    <string name="ask_Phone">:הזן מספר טלפון:</string>
+    <string name="ask_Email">הזן כתובת אימייל:</string>
+    <string name="share_animal_info">שיתוף מידע על החיה</string>
+    <string name="share_via_sms">שתף באמצעות הודעה</string>
+    <string name="share_via_email">שתף באמצעות אימייל</string>
+    <string name="share_name">שם:</string>
+    <string name="share_description">תיאור:</string>
+    <string name="share_cancel">ביטול</string>
+    <string name="share_send">נשלח בהצלחה</string>
+
+    <string name="stop_music">עצור מוסיקה</string>
+    <string name="play_music"> הפעל מוסיקה</string>
+</resources>
+

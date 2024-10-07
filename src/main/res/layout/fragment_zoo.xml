@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#DFD5C8"
+    tools:context=".fragments.ZooFragment">
+
+    <Button
+        android:id="@+id/btnStopMusic3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#F0EAEA"
+        android:fontFamily="source-sans-pro"
+        android:text="@string/stop_music"
+        android:textColor="#4E4C4C"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtViewUserName"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:backgroundTint="#F0EAEA"
+            android:fontFamily="source-sans-pro"
+            android:gravity="center"
+            android:text="TextView"
+            android:textColor="#4E4C4C"
+            android:textSize="23sp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="#000000" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#DCA05B">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="290dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/back2"
+                android:src="@drawable/lion" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="441dp"
+                android:layout_weight="1"
+                android:background="@drawable/back2">
+
+                <TextView
+                    android:id="@+id/txtViewAnimalName"
+                    android:layout_width="261dp"
+                    android:layout_height="46dp"
+                    android:layout_marginTop="16dp"
+                    android:fontFamily="source-sans-pro"
+                    android:gravity="center"
+                    android:text="TextViewName"
+                    android:textColor="#4E4C4C"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.6"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/txtViewAnimalDesc"
+                    android:layout_width="223dp"
+                    android:layout_height="295dp"
+                    android:background="#DFD6C7"
+                    android:fontFamily="source-sans-pro"
+                    android:gravity="center"
+                    android:text="TextViewdesc"
+                    android:textColor="#4E4C4C"
+                    android:textSize="19sp"
+                    app:layout_constraintBottom_toTopOf="@+id/btnShare"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.511"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtViewAnimalName"
+                    app:layout_constraintVertical_bias="0.0" />
+
+                <Button
+                    android:id="@+id/btnShare"
+                    android:layout_width="117dp"
+                    android:layout_height="64dp"
+                    android:layout_marginEnd="84dp"
+                    android:layout_marginBottom="16dp"
+                    android:backgroundTint="#F0EAEA"
+                    android:fontFamily="source-sans-pro"
+                    android:text="@string/share_button"
+                    android:textColor="#4E4C4C"
+                    android:textSize="26sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+
+        <!-- Black line separator -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="#000000" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
